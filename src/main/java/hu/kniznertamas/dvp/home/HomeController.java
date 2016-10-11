@@ -9,8 +9,9 @@ public class HomeController {
     public static final String REQUEST_MAPPING = "/";
 
     @RequestMapping(REQUEST_MAPPING)
-    public String index() {
-        return "index";
+    public String homepage() {
+        System.out.println("HOMEPAGE MAPPING");
+        return "homepage";
     }
 
 }
